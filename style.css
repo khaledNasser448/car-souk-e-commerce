@@ -139,8 +139,16 @@ a{
             padding: 5px;
             font-size: 17px;
             font-weight: 500;
+            border-radius: 10px;
+            color: var(--paragraph-color);
+            transition: var(--main-transition);
             
 
+        }
+        .header .container .catigory ul li:hover{
+            background-color: var(--main-color);
+            color: white;
+            
         }
     
     /* end header */
