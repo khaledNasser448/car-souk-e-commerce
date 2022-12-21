@@ -102,6 +102,13 @@ a{
     border-radius: 10px;
     padding: 0 15px 0;
     margin-right: 10px;
+    transition: var(--main-transition);
+    }
+    .header .container .main-section .section-right .sign-in:hover{
+            background-color: var(--main-color);
+            color: white;
+            border: 1px solid white;
+
     }
     .header .container .main-section .section-right .add{
         background-color: #00c4cc;
@@ -119,5 +126,51 @@ a{
     .header .container .main-section .section-right h3 i{
         color: var(--main-color);
     }
+         /* catigory sec */
+        
+        .header .container .catigory ul{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            
+        }
+        .header .container .catigory ul li{
+            padding: 5px;
+            font-size: 17px;
+            font-weight: 500;
+            
+
+        }
     
     /* end header */
+        .search-sec .container .search{
+            display: flex;
+            justify-content: center;
+            padding: 13px;
+
+        }
+        .search-sec .container .search form .search-field{
+            width: 400px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid var(--main-color);
+            transition: var(--main-transition);
+        }
+        .search-sec .container .search form .search-btn{
+            padding: 5px 10px;
+            border: 1px solid var(--main-color);
+            border-radius: 12px;
+            margin-left: 8px;
+            background-color: white;
+            transition: var(--main-transition);
+        }
+        .search-sec .container .search form .search-btn:hover{
+            background-color: var(--main-color);
+            color: white;
+            border: 1px solid white;
+
+        }
+        
+
+    /* .end search */
