@@ -1,0 +1,123 @@
+/* start global rules */
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+margin: 0;
+
+}
+body{
+    font-family: 'Cairo',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small */
+@media(min-width:768px){
+    .container{
+        width:750px;
+    }
+}
+/* medium */
+@media(min-width:992px){
+    .container{
+        width:970px;
+    }
+}
+    /* large */
+    @media(min-width:1200px){
+        .container{
+            width: 1170px;
+        }
+    }
+    :root{
+        --main-color:#2196f3;
+        --alternative-color:#1787e0;
+        --main-padding : 100px;
+        --main-transition : 0.3s;
+        --paragraph-color: #777;
+        --paragraph-line-hight:1.5;
+        --background-color:#ececec;;
+
+    }
+    /* end global rules */
+    /* start header */
+    .header{
+        position: relative;
+        background-color: white;
+        -webkit-box-shadow: 0 0 10px #ddd;
+        -moz-box-shadow: 0 0 10px #ddd;
+        box-shadow: 0 0 10px rgb(221 221 221);
+
+    }
+    
+    
+    
+    
+    
+
+    
+    .header .container .main-section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .header .container .main-section .section-left .logo-image{
+        height: 60px;
+    }
+
+    .header .container .main-section .section-left{
+        display: flex;
+        align-items: center;
+
+    }
+    .header .container .main-section .section-left h3{
+        margin-left: 10px;
+    }
+    .header .container .main-section .section-left h3 i{
+        color: var(--main-color);
+    }
+    
+    .header .container .main-section .section-right{
+        padding: 15px;
+
+    }
+    .header .container .main-section .section-right .sign-in{
+    
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 0 15px 0;
+    margin-right: 10px;
+    }
+    .header .container .main-section .section-right .add{
+        background-color: #00c4cc;
+        border-radius: 10px;
+        padding: 0 15px 0;
+        color: white;
+
+
+    }
+    .header .container .main-section .section-right h3{
+        display: inline-block;
+        margin-left: 5px;
+
+    }
+    .header .container .main-section .section-right h3 i{
+        color: var(--main-color);
+    }
+    
+    /* end header */
